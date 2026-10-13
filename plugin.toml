@@ -1,0 +1,15 @@
+name = "Translator"
+id = "translator"
+version = "0.1.0"
+description = "Translate text: tr hello · tr >de good morning · tr it>en ciao"
+author = "abidibo"
+homepage = "https://github.com/abidibo/parsec-translator"
+keywords = ["tr"]
+exec = "main.py"
+icon = "preferences-desktop-locale-symbolic"
+
+[config]
+target = ""         # default target language code; empty = your system language
+fallback = "en"     # used when the text is already in the target language
+email = ""          # optional: raises MyMemory's free quota from 5,000 to 50,000 chars a day
+deepl_key = ""      # optional free DeepL API key; tried first when set
